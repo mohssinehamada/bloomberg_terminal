@@ -1,0 +1,1370 @@
+ {
+  "metadata": {
+    "timestamp": "2025-04-29T18:08:47.161900",
+    "model": "gemini-2.0-flash",
+    "rate_limit": 5
+  },
+  "interest_rates": {
+    "tests": [
+      {
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "iteration": 1,
+        "execution_time_seconds": 37.29199743270874,
+        "timestamp": "2025-04-29T18:09:24.456079",
+        "status": "success",
+        "result": {
+          "interest_rates": [
+            {
+              "account_type": "Federal funds (effective)",
+              "rate": "4.33%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 1-month",
+              "rate": "4.38%-4.36%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 2-month",
+              "rate": "4.35%-4.31%",
+              "terms": "N/A",
+              "effective_date": "2025Apr22-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 3-month",
+              "rate": "4.35%-4.24%",
+              "terms": "N/A",
+              "effective_date": "2025Apr22-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 1-month",
+              "rate": "4.28%",
+              "terms": "N/A",
+              "effective_date": "2025Apr22",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 2-month",
+              "rate": "4.33%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 3-month",
+              "rate": "4.34%-4.37%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21, 2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Bank prime loan",
+              "rate": "7.50%",
+              "terms": "Rate posted by a majority of top 25 (by assets in domestic offices) insured U.S.-chartered commercial banks. Prime is one of several base rates used by banks to price short-term business loans.",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Discount window primary credit",
+              "rate": "4.50%",
+              "terms": "The rate charged for discounts made and advances extended under the Federal Reserve's primary credit discount window program",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 4-week",
+              "rate": "4.24%-4.23%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 3-month",
+              "rate": "4.22%-4.21%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 6-month",
+              "rate": "4.05%-4.07%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 1-year",
+              "rate": "3.78%-3.80%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-month",
+              "rate": "4.35%-4.34%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-month",
+              "rate": "4.34%-4.32%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 6-month",
+              "rate": "4.21%-4.22%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-year",
+              "rate": "3.95%-4.01%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 2-year",
+              "rate": "3.75%-3.81%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-year",
+              "rate": "3.77%-3.87%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 5-year",
+              "rate": "3.97%-4.00%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 7-year",
+              "rate": "4.19%-4.20%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 10-year",
+              "rate": "4.42%-4.40%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 20-year",
+              "rate": "4.94%-4.86%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 30-year",
+              "rate": "4.91%-4.83%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 5-year",
+              "rate": "1.72%-1.67%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 7-year",
+              "rate": "1.97%-1.90%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 10-year",
+              "rate": "2.20%-2.11%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 20-year",
+              "rate": "2.53%-2.43%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 30-year",
+              "rate": "2.68%-2.58%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Inflation-indexed long-term average",
+              "rate": "2.65%-2.55%",
+              "terms": "Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.",
+              "effective_date": "2025Apr21-2025Apr23",
+              "rate_type": "N/A"
+            }
+          ],
+          "source_info": {
+            "website": "Federal Reserve Board",
+            "last_updated": "April 28, 2025"
+          }
+        }
+      },
+      {
+        "url": "https://www.bankrate.com/banking/savings/rates/",
+        "iteration": 1,
+        "execution_time_seconds": 397.5913870334625,
+        "timestamp": "2025-04-29T18:16:02.048773",
+        "status": "success",
+        "result": {
+          "interest_rates": [
+            {
+              "account_type": "High-Yield Savings Account (BrioDirect)",
+              "rate": "4.45%",
+              "terms": "$5,000 minimum deposit to open, $25 minimum balance to earn APY",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "High-Yield Savings Account (Bread Savings)",
+              "rate": "4.40%",
+              "terms": "$100 minimum deposit to open, no minimum balance to earn APY",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Savings Account (Openbank)",
+              "rate": "4.40%",
+              "terms": "$500 minimum deposit to open, $500 minimum balance to earn APY",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Performance Savings account (EverBank)",
+              "rate": "4.30%",
+              "terms": "No minimum deposit to open, no minimum balance to earn APY",
+              "effective_date": "4/18/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "High Yield Savings Account (Rising Bank)",
+              "rate": "4.30%",
+              "terms": "$1,000 minimum deposit to open, $1,000 minimum balance to earn APY",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "TAB Save account (TAB Bank)",
+              "rate": "4.26%",
+              "terms": "No minimum deposit to open, no minimum balance to earn APY, No monthly maintenance fees",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Growth Savings account (Forbright Bank)",
+              "rate": "4.25%",
+              "terms": "No minimum deposit to open, no minimum balance to earn APY, No minimum opening deposit requirement.",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "CIBC Agility High-Interest Savings Account (CIBC Bank USA)",
+              "rate": "4.21%",
+              "terms": "$1,000 minimum deposit to open, $1 minimum balance to earn APY, Earn the high rate on all balances above $0.01",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Interest Savings account (Bask Bank)",
+              "rate": "4.20%",
+              "terms": "No minimum deposit to open, no minimum balance to earn APY, No minimum opening deposit and doesn't charge a monthly fee.",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Personal Savings Account (Live Oak Bank)",
+              "rate": "4.20%",
+              "terms": "No minimum deposit to open, $0.01 minimum balance to earn APY, High yield on all balances starting from just $0.01, No monthly maintenance fees",
+              "effective_date": "4/22/2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "High-Yield Savings Account",
+              "rate": "0.59%",
+              "terms": "National average",
+              "effective_date": "Updated April 29, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "High-Yield Savings Account",
+              "rate": "4.50%",
+              "terms": "$10,000 balance, interest compounded monthly",
+              "effective_date": "N/A",
+              "rate_type": "Variable"
+            },
+            {
+              "account_type": "High-yield savings account",
+              "rate": "4.50%",
+              "terms": "If interest is compounded monthly",
+              "effective_date": "N/A",
+              "rate_type": "Variable"
+            },
+            {
+              "account_type": "HELOC",
+              "rate": "Variable",
+              "terms": "Line of credit, borrow funds for a set period and repay them later",
+              "effective_date": "N/A",
+              "rate_type": "Variable"
+            },
+            {
+              "account_type": "Home equity loans",
+              "rate": "Fixed",
+              "terms": "Lump sum at a fixed rate, based on how much of the home you own outright.",
+              "effective_date": "N/A",
+              "rate_type": "Fixed"
+            },
+            {
+              "account_type": "CDs",
+              "rate": "N/A",
+              "terms": "Fixed APY for a certain period of time",
+              "effective_date": "N/A",
+              "rate_type": "Fixed"
+            },
+            {
+              "account_type": "Savings Account",
+              "rate": "N/A",
+              "terms": "National Average",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "30-year mortgage rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "15-year mortgage rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "VA loan rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Cash-out refinance rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "30-year refinance rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "15-year refinance rates",
+              "rate": "N/A",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Best 0% APR cards",
+              "rate": "0%",
+              "terms": "N/A",
+              "effective_date": "N/A",
+              "rate_type": "Fixed"
+            }
+          ],
+          "source_info": {
+            "website": "Bankrate",
+            "last_updated": "April 29, 2025"
+          }
+        }
+      },
+      {
+        "url": "https://www.nerdwallet.com/best/banking/savings-rates",
+        "iteration": 1,
+        "execution_time_seconds": 971.9979848861694,
+        "timestamp": "2025-04-29T18:32:14.047976",
+        "status": "success",
+        "result": {
+          "raw_response": "Error querying Gemini API: Timeout of 600.0s exceeded, last exception: 503 The model is overloaded. Please try again later."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "iteration": 2,
+        "execution_time_seconds": 195.14498138427734,
+        "timestamp": "2025-04-29T18:35:29.193904",
+        "status": "success",
+        "result": {
+          "interest_rates": [
+            {
+              "account_type": "Federal funds (effective)",
+              "rate": "4.33%",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 1-month",
+              "rate": "4.38% (Apr 21) - 4.36% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 2-month",
+              "rate": "4.35% (Apr 22) - 4.31% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 22, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 3-month",
+              "rate": "4.35% (Apr 22) - 4.24% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 22, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 1-month",
+              "rate": "4.28% (Apr 22)",
+              "terms": "N/A",
+              "effective_date": "April 22, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 2-month",
+              "rate": "4.33% (Apr 21)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 3-month",
+              "rate": "4.34% (Apr 21) - 4.19% (Apr 22) - 4.26% (Apr 23) - 4.37% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Bank prime loan",
+              "rate": "7.50%",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Discount window primary credit",
+              "rate": "4.50%",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 4-week",
+              "rate": "4.24% (Apr 21) - 4.23% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 3-month",
+              "rate": "4.22% (Apr 21) - 4.21% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 6-month",
+              "rate": "4.05% (Apr 21) - 4.07% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 1-year",
+              "rate": "3.78% (Apr 21) - 3.80% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-month",
+              "rate": "4.35% (Apr 21) - 4.34% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-month",
+              "rate": "4.34% (Apr 21) - 4.32% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 6-month",
+              "rate": "4.21% (Apr 21) - 4.22% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-year",
+              "rate": "3.95% (Apr 21) - 3.95% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 2-year",
+              "rate": "3.75% (Apr 21) - 3.74% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-year",
+              "rate": "3.77% (Apr 21) - 3.76% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 5-year",
+              "rate": "3.97% (Apr 21) - 3.88% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 7-year",
+              "rate": "4.19% (Apr 21) - 4.06% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 10-year",
+              "rate": "4.42% (Apr 21) - 4.29% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 20-year",
+              "rate": "4.94% (Apr 21) - 4.75% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 30-year",
+              "rate": "4.91% (Apr 21) - 4.74% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 5-year",
+              "rate": "1.72% (Apr 21) - 1.56% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 7-year",
+              "rate": "1.97% (Apr 21) - 1.80% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 10-year",
+              "rate": "2.20% (Apr 21) - 2.02% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 20-year",
+              "rate": "2.53% (Apr 21) - 2.36% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 30-year",
+              "rate": "2.68% (Apr 21) - 2.53% (Apr 25)",
+              "terms": "N/A",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Inflation-indexed long-term average",
+              "rate": "2.65% (Apr 21) - 2.48% (Apr 25)",
+              "terms": "Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.",
+              "effective_date": "April 21, 2025 - April 25, 2025",
+              "rate_type": "N/A"
+            }
+          ],
+          "source_info": {
+            "website": "Federal Reserve Board",
+            "last_updated": "April 28, 2025"
+          }
+        }
+      },
+      {
+        "url": "https://www.bankrate.com/banking/savings/rates/",
+        "iteration": 2,
+        "execution_time_seconds": 1051.5807483196259,
+        "timestamp": "2025-04-29T18:53:00.775569",
+        "status": "success",
+        "result": {
+          "raw_response": "Error querying Gemini API: Timeout of 600.0s exceeded, last exception: 503 The model is overloaded. Please try again later."
+        }
+      },
+      {
+        "url": "https://www.nerdwallet.com/best/banking/savings-rates",
+        "iteration": 2,
+        "execution_time_seconds": 4975.160152435303,
+        "timestamp": "2025-04-29T20:15:55.936270",
+        "status": "success",
+        "result": {
+          "raw_response": "Error querying Gemini API: 504 Deadline Exceeded"
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "iteration": 3,
+        "execution_time_seconds": 38.002907037734985,
+        "timestamp": "2025-04-29T20:16:33.939692",
+        "status": "success",
+        "result": {
+          "interest_rates": [
+            {
+              "account_type": "Federal funds (effective)",
+              "rate": "4.33%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 1-month",
+              "rate": "4.38% - 4.31%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 2-month",
+              "rate": "4.35% - 4.30%",
+              "terms": "N/A",
+              "effective_date": "2025Apr22 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Nonfinancial 3-month",
+              "rate": "4.35% - 4.25%",
+              "terms": "N/A",
+              "effective_date": "2025Apr22 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 2-month",
+              "rate": "4.33%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Commercial Paper Financial 3-month",
+              "rate": "4.34% - 4.19% - 4.26% - 4.37%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr22 - 2025Apr23 - 2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Bank prime loan",
+              "rate": "7.50%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Discount window primary credit",
+              "rate": "4.50%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr25",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 4-week",
+              "rate": "4.24% - 4.23%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 3-month",
+              "rate": "4.22% - 4.21%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 6-month",
+              "rate": "4.05% - 4.07%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "U.S. government securities Treasury bills (secondary market) 1-year",
+              "rate": "3.78% - 3.85%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-month",
+              "rate": "4.35% - 4.33% - 4.34%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-month",
+              "rate": "4.34% - 4.32%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr24",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 6-month",
+              "rate": "4.21% - 4.22%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 1-year",
+              "rate": "3.95% - 4.01%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 2-year",
+              "rate": "3.75% - 3.81%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 3-year",
+              "rate": "3.77% - 3.87%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 5-year",
+              "rate": "3.97% - 4.00%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 7-year",
+              "rate": "4.19% - 4.20%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 10-year",
+              "rate": "4.42% - 4.40%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 20-year",
+              "rate": "4.94% - 4.86%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Nominal 30-year",
+              "rate": "4.91% - 4.83%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 5-year",
+              "rate": "1.72% - 1.67%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 7-year",
+              "rate": "1.97% - 1.90%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 10-year",
+              "rate": "2.20% - 2.11%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 20-year",
+              "rate": "2.53% - 2.43%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Treasury constant maturities Inflation indexed 30-year",
+              "rate": "2.68% - 2.58%",
+              "terms": "N/A",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            },
+            {
+              "account_type": "Inflation-indexed long-term average",
+              "rate": "2.65% - 2.55%",
+              "terms": "Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.",
+              "effective_date": "2025Apr21 - 2025Apr23",
+              "rate_type": "N/A"
+            }
+          ],
+          "source_info": {
+            "website": "Federal Reserve Board",
+            "last_updated": "April 28, 2025"
+          }
+        }
+      },
+      {
+        "url": "https://www.bankrate.com/banking/savings/rates/",
+        "iteration": 3,
+        "execution_time_seconds": 2242.9983966350555,
+        "timestamp": "2025-04-29T20:53:56.938798",
+        "status": "success",
+        "result": {
+          "raw_response": "Error querying Gemini API: 504 Deadline Exceeded"
+        }
+      },
+      {
+        "url": "https://www.nerdwallet.com/best/banking/savings-rates",
+        "iteration": 3,
+        "execution_time_seconds": 888.7840886116028,
+        "timestamp": "2025-04-29T21:08:45.723306",
+        "status": "success",
+        "result": {
+          "raw_response": "Error querying Gemini API: Timeout of 600.0s exceeded, last exception: 503 The model is overloaded. Please try again later."
+        }
+      }
+    ],
+    "summary": {
+      "total_executions": 9,
+      "average_time": 1199.839182641771,
+      "min_time": 37.29199743270874,
+      "max_time": 4975.160152435303,
+      "standard_deviation": 1575.843760883044
+    }
+  },
+  "real_estate": {
+    "tests": [
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 500000,
+          "max_price": 1000000,
+          "min_bedrooms": 2
+        },
+        "iteration": 1,
+        "execution_time_seconds": 1182.088163137436,
+        "timestamp": "2025-04-29T21:28:27.814316",
+        "status": "success",
+        "result": [
+          {
+            "raw_response": "Error querying Gemini API: 504 Deadline Exceeded"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 1000000,
+          "max_price": 2000000,
+          "min_bedrooms": 3
+        },
+        "iteration": 1,
+        "execution_time_seconds": 148.0776834487915,
+        "timestamp": "2025-04-29T21:30:55.894808",
+        "status": "success",
+        "result": [
+          {
+            "address": "Bhayli, Vadodara",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Gotri, Vadodara",
+            "price": "\u20b91.90 Cr",
+            "bedrooms": "5",
+            "bathrooms": "N/A",
+            "square_footage": "3000sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 2000000,
+          "max_price": 3000000,
+          "min_bedrooms": 4
+        },
+        "iteration": 1,
+        "execution_time_seconds": 109.18434739112854,
+        "timestamp": "2025-04-29T21:32:45.081743",
+        "status": "success",
+        "result": [
+          {
+            "address": "Bhayli, Vadodara",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 500000,
+          "max_price": 1000000,
+          "min_bedrooms": 2
+        },
+        "iteration": 2,
+        "execution_time_seconds": 188.62029671669006,
+        "timestamp": "2025-04-29T21:35:53.704470",
+        "status": "success",
+        "result": [
+          {
+            "address": "8 2 BHK Flat, Old Padra Road, Vadodara",
+            "price": "\u20b940 Lac",
+            "bedrooms": "2",
+            "bathrooms": "N/A",
+            "square_footage": "1200 sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Harni Road, Vadodara",
+            "price": "\u20b975 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1120 sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Makar Pura, Vadodara",
+            "price": "\u20b968 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "2000sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Waghodia, Vadodara",
+            "price": "\u20b960 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1250sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 1000000,
+          "max_price": 2000000,
+          "min_bedrooms": 3
+        },
+        "iteration": 2,
+        "execution_time_seconds": 164.4541449546814,
+        "timestamp": "2025-04-29T21:38:38.161046",
+        "status": "success",
+        "result": [
+          {
+            "address": "N/A, Bhayli, Vadodara",
+            "price": "\u20b928 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1400sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 2000000,
+          "max_price": 3000000,
+          "min_bedrooms": 4
+        },
+        "iteration": 2,
+        "execution_time_seconds": 146.81007075309753,
+        "timestamp": "2025-04-29T21:41:04.973268",
+        "status": "success",
+        "result": [
+          {
+            "address": "Bhayli, Vadodara",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 500000,
+          "max_price": 1000000,
+          "min_bedrooms": 2
+        },
+        "iteration": 3,
+        "execution_time_seconds": 227.8738830089569,
+        "timestamp": "2025-04-29T21:44:52.849537",
+        "status": "success",
+        "result": [
+          {
+            "address": "8 2 BHK Flat Old Padra Road, Vadodara",
+            "price": "\u20b940 Lac",
+            "bedrooms": "2",
+            "bathrooms": "N/A",
+            "square_footage": "1200 sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "14 3 BHK Flat Waghodia, Vadodara",
+            "price": "\u20b960 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1250 sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Harni Road, Vadodara",
+            "price": "\u20b975 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1120 sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Makar Pura, Vadodara",
+            "price": "\u20b968 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "2000sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Waghodia, Vadodara",
+            "price": "\u20b960 Lac",
+            "bedrooms": "3",
+            "bathrooms": "N/A",
+            "square_footage": "1250sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Flats in Vadodara",
+            "price": "\u20b9 50 Lac - \u20b9 1 Cr",
+            "bedrooms": "N/A",
+            "bathrooms": "N/A",
+            "square_footage": "N/A",
+            "property_type": "Flat",
+            "features": [],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "House for sale in Vadodara",
+            "price": "\u20b9 50 Lac - \u20b9 1 Cr",
+            "bedrooms": "N/A",
+            "bathrooms": "N/A",
+            "square_footage": "N/A",
+            "property_type": "House",
+            "features": [],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Villa in Vadodara",
+            "price": "\u20b9 50 Lac - \u20b9 1 Cr",
+            "bedrooms": "N/A",
+            "bathrooms": "N/A",
+            "square_footage": "N/A",
+            "property_type": "Villa",
+            "features": [],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 1000000,
+          "max_price": 2000000,
+          "min_bedrooms": 3
+        },
+        "iteration": 3,
+        "execution_time_seconds": 131.83402156829834,
+        "timestamp": "2025-04-29T21:47:04.686034",
+        "status": "success",
+        "result": [
+          {
+            "address": "N/A, Gotri, Vadodara",
+            "price": "\u20b91.90 Cr",
+            "bedrooms": "5",
+            "bathrooms": "N/A",
+            "square_footage": "3000sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "N/A, Bhayli, Vadodara",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Bhayli, Vadodara",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          },
+          {
+            "address": "Gotri, Vadodara",
+            "price": "\u20b91.90 Cr",
+            "bedrooms": "5",
+            "bathrooms": "N/A",
+            "square_footage": "3000sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      },
+      {
+        "url": "https://www.magicbricks.com/property-for-sale-rent-in-Vadodara/residential-real-estate-Vadodara",
+        "criteria": {
+          "location": "Vadodara",
+          "min_price": 2000000,
+          "max_price": 3000000,
+          "min_bedrooms": 4
+        },
+        "iteration": 3,
+        "execution_time_seconds": 109.11197328567505,
+        "timestamp": "2025-04-29T21:48:53.800392",
+        "status": "success",
+        "result": [
+          {
+            "address": "N/A",
+            "price": "\u20b91.69 Cr",
+            "bedrooms": "4",
+            "bathrooms": "N/A",
+            "square_footage": "1098sqft",
+            "property_type": "Flat",
+            "features": [
+              "Ready to Move"
+            ],
+            "year_built": "N/A",
+            "contact": "N/A",
+            "listing_url": "N/A"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_executions": 9,
+      "average_time": 267.5616204738617,
+      "min_time": 109.11197328567505,
+      "max_time": 1182.088163137436,
+      "standard_deviation": 345.01191614214144
+    }
+  }
+}

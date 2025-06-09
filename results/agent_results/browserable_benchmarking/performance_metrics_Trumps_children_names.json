@@ -1,0 +1,167 @@
+[
+  {
+    "No": 1,
+    "Time": "3.38s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 2981,
+    "Output Tokens": 219,
+    "Cost ($)": 0.0004,
+    "Usecase": "Delegator Agent",
+    "Created At": "May 1, 2025 at 7:54:15 AM",
+    "Completed At": "May 1, 2025 at 7:54:18 AM"
+  },
+  {
+    "No": 2,
+    "Time": "2.73s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 3486,
+    "Output Tokens": 157,
+    "Cost ($)": 0.0004,
+    "Usecase": "Decide Task Data Table Ops",
+    "Created At": "May 1, 2025 at 7:54:12 AM",
+    "Completed At": "May 1, 2025 at 7:54:15 AM"
+  },
+  {
+    "No": 3,
+    "Time": "3.80s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 2392,
+    "Output Tokens": 676,
+    "Cost ($)": 0.0005,
+    "Usecase": "Detailed Output",
+    "Created At": "May 1, 2025 at 7:54:08 AM",
+    "Completed At": "May 1, 2025 at 7:54:12 AM"
+  },
+  {
+    "No": 4,
+    "Time": "5.26s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 17029,
+    "Output Tokens": 547,
+    "Cost ($)": 0.0019,
+    "Usecase": "Detailed Output",
+    "Created At": "May 1, 2025 at 7:54:03 AM",
+    "Completed At": "May 1, 2025 at 7:54:08 AM"
+  },
+  {
+    "No": 5,
+    "Time": "4.92s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 24811,
+    "Output Tokens": 238,
+    "Cost ($)": 0.0026,
+    "Usecase": "Agent Llm",
+    "Created At": "May 1, 2025 at 7:53:58 AM",
+    "Completed At": "May 1, 2025 at 7:54:03 AM"
+  },
+  {
+    "No": 6,
+    "Time": "1.32s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 431,
+    "Output Tokens": 47,
+    "Cost ($)": 0.0001,
+    "Usecase": "Decide If Extraction Is Complete",
+    "Created At": "May 1, 2025 at 7:53:54 AM",
+    "Completed At": "May 1, 2025 at 7:53:55 AM"
+  },
+  {
+    "No": 7,
+    "Time": "2.64s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 338,
+    "Output Tokens": 150,
+    "Cost ($)": 0.0001,
+    "Usecase": "Refine Extracted Content",
+    "Created At": "May 1, 2025 at 7:53:51 AM",
+    "Completed At": "May 1, 2025 at 7:53:54 AM"
+  },
+  {
+    "No": 8,
+    "Time": "3.88s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 4287,
+    "Output Tokens": 160,
+    "Cost ($)": 0.0005,
+    "Usecase": "Extract Content",
+    "Created At": "May 1, 2025 at 7:53:47 AM",
+    "Completed At": "May 1, 2025 at 7:53:51 AM"
+  },
+  {
+    "No": 9,
+    "Time": "6.07s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 24476,
+    "Output Tokens": 262,
+    "Cost ($)": 0.0026,
+    "Usecase": "Agent Llm",
+    "Created At": "May 1, 2025 at 7:53:31 AM",
+    "Completed At": "May 1, 2025 at 7:53:37 AM"
+  },
+  {
+    "No": 10,
+    "Time": "3.13s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 5962,
+    "Output Tokens": 148,
+    "Cost ($)": 0.0007,
+    "Usecase": "Agent Llm",
+    "Created At": "May 1, 2025 at 7:53:12 AM",
+    "Completed At": "May 1, 2025 at 7:53:15 AM"
+  },
+  {
+    "No": 11,
+    "Time": "2.16s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 5468,
+    "Output Tokens": 172,
+    "Cost ($)": 0.0006,
+    "Usecase": "Agent Llm",
+    "Created At": "May 1, 2025 at 7:53:00 AM",
+    "Completed At": "May 1, 2025 at 7:53:03 AM"
+  },
+  {
+    "No": 12,
+    "Time": "2.44s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 2625,
+    "Output Tokens": 64,
+    "Cost ($)": 0.0003,
+    "Usecase": "Plan Of Action",
+    "Created At": "May 1, 2025 at 7:52:52 AM",
+    "Completed At": "May 1, 2025 at 7:52:55 AM"
+  },
+  {
+    "No": 13,
+    "Time": "2.01s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 3401,
+    "Output Tokens": 195,
+    "Cost ($)": 0.0004,
+    "Usecase": "Decide Task Data Table Ops",
+    "Created At": "May 1, 2025 at 7:52:45 AM",
+    "Completed At": "May 1, 2025 at 7:52:47 AM"
+  },
+  {
+    "No": 14,
+    "Time": "1.31s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 338,
+    "Output Tokens": 58,
+    "Cost ($)": 0.0001,
+    "Usecase": "Datatable Schema",
+    "Created At": "May 1, 2025 at 7:52:44 AM",
+    "Completed At": "May 1, 2025 at 7:52:45 AM"
+  },
+  {
+    "No": 15,
+    "Time": "2.31s",
+    "Model": "gemini-2.0-flash",
+    "Input Tokens": 94,
+    "Output Tokens": 40,
+    "Cost ($)": 0.0,
+    "Usecase": "Generator",
+    "Created At": "May 1, 2025 at 7:52:42 AM",
+    "Completed At": "May 1, 2025 at 7:52:44 AM"
+  }
+]

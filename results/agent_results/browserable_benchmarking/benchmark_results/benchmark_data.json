@@ -1,0 +1,93 @@
+{
+  "navigation": [
+    {
+      "url": "google.com",
+      "success": true,
+      "time_taken": 2.192795515060425,
+      "result": {
+        "success": true,
+        "url": "https://www.google.com/",
+        "title": "Google",
+        "status": "success"
+      }
+    },
+    {
+      "url": "github.com",
+      "success": true,
+      "time_taken": 1.759617567062378,
+      "result": {
+        "success": true,
+        "url": "https://github.com/",
+        "title": "GitHub \u00b7 Build and ship software on a single, collaborative platform \u00b7 GitHub",
+        "status": "success"
+      }
+    },
+    {
+      "url": "wikipedia.org",
+      "success": true,
+      "time_taken": 3.871556282043457,
+      "result": {
+        "success": true,
+        "url": "https://www.wikipedia.org/",
+        "title": "Wikipedia",
+        "status": "success"
+      }
+    },
+    {
+      "url": "reddit.com",
+      "success": true,
+      "time_taken": 2.6421852111816406,
+      "result": {
+        "success": true,
+        "url": "https://www.reddit.com/?rdt=48903",
+        "title": "Reddit - The heart of the internet",
+        "status": "success"
+      }
+    },
+    {
+      "url": "news.ycombinator.com",
+      "success": true,
+      "time_taken": 1.3162922859191895,
+      "result": {
+        "success": true,
+        "url": "https://news.ycombinator.com/",
+        "title": "Hacker News",
+        "status": "success"
+      }
+    }
+  ],
+  "element_interaction": [
+    {
+      "type_success": true,
+      "type_time": 0.4095485210418701,
+      "click_success": true,
+      "click_time": 1.8230617046356201
+    }
+  ],
+  "content_extraction": [
+    {
+      "content_success": true,
+      "content_time": 0.23093581199645996,
+      "content_size": 236613,
+      "table_success": true,
+      "table_time": 0.08222508430480957,
+      "tables_found": 2
+    }
+  ],
+  "task_execution": [
+    {
+      "task_name": "federal_reserve_rates",
+      "success": false,
+      "time_taken": 15.6585054397583,
+      "rates_found": 0
+    }
+  ],
+  "error_handling": [
+    {
+      "invalid_url_handled": true,
+      "invalid_url_time": 4.591567039489746,
+      "non_existent_handled": true,
+      "non_existent_time": 10.015498399734497
+    }
+  ]
+}

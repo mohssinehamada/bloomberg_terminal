@@ -1,0 +1,838 @@
+[
+    {
+        "task": 1,
+        "results": {
+            "objective": "What are the different membership tiers and their prices for Lightning AI?",
+            "url": "https://lightning.ai/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 2,
+        "results": {
+            "objective": "Please find the best mortgage rate available to me using bankrate.com. My zip code is 90210 and the purchase price is $400,000 with a down payment of $85,000. My credit score is 800.",
+            "url": "https://www.bankrate.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "type",
+                "4": "type",
+                "5": "type",
+                "6": "click",
+                "7": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "type",
+                "4": "type",
+                "5": "type",
+                "6": "click",
+                "7": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "7": true
+            }
+        }
+    },
+    {
+        "task": 3,
+        "results": {
+            "objective": "Please find the best mortgage rate available to me using bankrate.com. My zip code is 90210 and the purchase price is $400,000 with a down payment of $85,000. My credit score is 800.",
+            "url": "https://www.bankrate.com/mortgages/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 4,
+        "results": {
+            "objective": "Please open the latest blog by Launchpad.ai and get me all the relevant information about it.",
+            "url": "https://www.launchpad.ai/blog",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 5,
+        "results": {
+            "objective": "Find out the trade-in value for an iPhone 13 Pro Max in good condition on the Apple website.",
+            "url": "https://www.apple.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 6,
+        "results": {
+            "objective": "Search the latest article about space exploration on BBC News and summarize its key points.",
+            "url": "https://www.bbc.com/search?q=space+exploration&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTc0MjA1NDYzNCwibmJmIjogMTc0MjA1NDI3NCwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEc3BhY2UlMkJleHBsb3JhdGlvbiJ9.xqyZ2esPpTA-CpnmERR7ItU7Vvy__PYKj1lDrZZGbRU",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 7,
+        "results": {
+            "objective": "Summarize all the payment plans and their advantages in huggingface pricing.",
+            "url": "https://huggingface.co/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 8,
+        "results": {
+            "objective": "Please log into Instagram using the email 'testemail@gmail.com' and the password 'password'.",
+            "url": "https://www.instagram.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "click",
+                "4": "type",
+                "5": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "type",
+                "5": "click",
+                "6": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": false,
+                "4": true,
+                "5": false,
+                "6": false
+            }
+        }
+    },
+    {
+        "task": 9,
+        "results": {
+            "objective": "Please search for the song Stronger by Kanye West.",
+            "url": "https://soundcloud.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "click",
+                "4": "type"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": false,
+                "4": false
+            }
+        }
+    },
+    {
+        "task": 10,
+        "results": {
+            "objective": "Please find a recipe for marinated flank steak.",
+            "url": "https://www.allrecipes.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "click",
+                "4": "type"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": false,
+                "4": false
+            }
+        }
+    },
+    {
+        "task": 11,
+        "results": {
+            "objective": "Please use the calculator web2.0calc to calculate the value 10/2.",
+            "url": "https://web2.0calc.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 12,
+        "results": {
+            "objective": "Please find a hotel in London for next weekend for 1 adult.",
+            "url": "https://www.booking.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true
+            }
+        }
+    },
+    {
+        "task": 13,
+        "results": {
+            "objective": "Please find a good offer for an iPhone 15.",
+            "url": "https://www.amazon.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true
+            }
+        }
+    },
+    {
+        "task": 14,
+        "results": {
+            "objective": "Please search for jobs as a data analyst in Berlin.",
+            "url": "https://www.xing.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "click",
+                "4": "type"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": false,
+                "4": false
+            }
+        }
+    },
+    {
+        "task": 15,
+        "results": {
+            "objective": "Search for 'to behave well' in Cambridge Dictionary's Thesaurus and see which synonyms the dictionary gives.",
+            "url": "https://dictionary.cambridge.org/thesaurus/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 16,
+        "results": {
+            "objective": "Please find the best-rated courses for machine learning on Coursera.",
+            "url": "https://www.coursera.org/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true
+            }
+        }
+    },
+    {
+        "task": 17,
+        "results": {
+            "objective": "Please search for an introduction to R on GeeksforGeeks.",
+            "url": "https://www.geeksforgeeks.org/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "type",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true
+            }
+        }
+    },
+    {
+        "task": 18,
+        "results": {
+            "objective": "Please determine the derivative of the function x^2.",
+            "url": "https://www.symbolab.com/solver/derivative-calculator/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(x%5E%7B2%7D%5Cright)?or=input",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 19,
+        "results": {
+            "objective": "Please give me the current stock price for Tesla and Apple.",
+            "url": "https://www.cnbc.com/quotes/AAPL,TSLA",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 20,
+        "results": {
+            "objective": "Please open the latest blog by Launchpad.ai and get me all the relevant information about it.",
+            "url": "https://www.launchpad.ai/blog/leveraging-ai-for-seamless-hair-color-modifications",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 21,
+        "results": {
+            "objective": "Please tell me the Wikipedia definition of a stock market.",
+            "url": "https://en.wikipedia.org/wiki/Stock_market",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 22,
+        "results": {
+            "objective": "Please give me a summary of the present article 'EnvBench: A Benchmark for Automated Environment Setup'.",
+            "url": "https://arxiv.org/abs/2503.14443",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 23,
+        "results": {
+            "objective": "Please find the name of the author of the book 'How to Win Friends and Influence People'.",
+            "url": "https://www.google.de/books/edition/How_to_Win_Friends_and_Influence_People/vOb1EAAAQBAJ?hl=en&gbpv=0",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 24,
+        "results": {
+            "objective": "Please tell me the minimum qualifications for the position 'Workspace Sales Specialist III' at Google.",
+            "url": "https://www.google.com/about/careers/applications/jobs/results/133883848537580230-workspace-sales-specialist-iii-greenfield-google-cloud?has_remote=true",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 25,
+        "results": {
+            "objective": "Please tell me the rating of the course 'Machine Learning Specialization' on Coursera.",
+            "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 26,
+        "results": {
+            "objective": "Please tell me who the current top three teams of the Spanish football league La Liga are.",
+            "url": "https://www.espn.co.uk/football/table/_/league/esp.1",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 27,
+        "results": {
+            "objective": "Please tell me the current value of the Dow Jones Industrial Average.",
+            "url": "https://www.hl.co.uk/shares/stock-market-summary/dow-jones",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true
+            }
+        }
+    },
+    {
+        "task": 28,
+        "results": {
+            "objective": "Please find the range of available mortgage rates in California from consumerfinance.gov. I am looking to buy a house valued at $400,000 with a down payment of $85,000. My credit score is 800.",
+            "url": "https://www.consumerfinance.gov/owning-a-home/explore-rates/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "type",
+                "3": "type",
+                "4": "type",
+                "5": "type",
+                "6": "scroll",
+                "7": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": false,
+                "3": false,
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false
+            }
+        }
+    },
+    {
+        "task": 29,
+        "results": {
+            "objective": "Please tell me about Module 2 in the given machine learning tutorial.",
+            "url": "https://www.geeksforgeeks.org/machine-learning/?ref=gcse_outind",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 30,
+        "results": {
+            "objective": "Please tell me about the conditions of use of amazon.com.",
+            "url": "https://www.amazon.com/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 31,
+        "results": {
+            "objective": "Please tell me the salary for the job 'Lead Technical Program Manager' at JP Morgan.",
+            "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210587668",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 32,
+        "results": {
+            "objective": "Please tell the nutrition facts for the given 'Cheesecake Crepe Roll-Up'-recipe.",
+            "url": "https://www.allrecipes.com/recipe/216729/cheesecake-crepe-roll-ups/",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "scroll",
+                "4": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "click",
+                "3": "scroll",
+                "4": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true
+            }
+        }
+    },
+    {
+        "task": 33,
+        "results": {
+            "objective": "Please tell me some of the benefits of a career at Jane Street.",
+            "url": "https://www.janestreet.com/culture/benefits/?office=nyc&view=grid",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 34,
+        "results": {
+            "objective": "Please find the name of the 50th problem in the problem-list on Leetcode.",
+            "url": "https://leetcode.com/problemset/?page=1",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 35,
+        "results": {
+            "objective": "Please tell me the name of the last team in the current Premier League table.",
+            "url": "https://www.espn.co.uk/football/standings/_/league/eng.1",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 36,
+        "results": {
+            "objective": "Please summarize the section 'Features' of the readme file of the Github repository for UI-TARS-desktop.",
+            "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    },
+    {
+        "task": 37,
+        "results": {
+            "objective": "Please summarize the section 'Options contracts' of the 'Dow Jones Industrial Average'-article on Wikipedia.",
+            "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
+            "chosen_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "desired_action": {
+                "1": "navigate",
+                "2": "scroll",
+                "3": "return_value"
+            },
+            "action_matched": {
+                "1": true,
+                "2": true,
+                "3": true
+            }
+        }
+    }
+]

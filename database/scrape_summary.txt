@@ -1,0 +1,50 @@
+Scrape completed at 2025-05-14 10:09:18.432054
+Found 9 listings
+Successfully saved 9 listings to database
+
+Sample listings:
+Listing 1:
+  title: Zillow Property
+  date: Recent
+  location: Unknown Location
+  price: $700,000
+  bedrooms: 3
+  bathrooms: 2
+  size: 1,045 sqft
+
+Listing 2:
+  title: Zillow Property
+  date: Recent
+  location: Unknown Location
+  price: $399,000
+  bedrooms: 5
+  bathrooms: 3
+  size: 2,776 sqft
+
+Listing 3:
+  title: Zillow Property
+  date: Recent
+  location: Unknown Location
+  price: $1,080,000
+  bedrooms: 4
+  bathrooms: 2
+  size: 1,650 sqft
+
+Listing 4:
+  title: Zillow Property
+  date: Recent
+  location: Unknown Location
+  price: $1,350,000
+  bedrooms: 5
+  bathrooms: 3
+  size: 3,766 sqft
+
+Listing 5:
+  title: Zillow Property
+  date: Recent
+  location: Unknown Location
+  price: $665,000
+  bedrooms: 4
+  bathrooms: 3
+  size: 2,582 sqft
+

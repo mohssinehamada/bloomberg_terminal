@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "model": "gemini-2.0-flash-exp",
+    "total_tasks": 4,
+    "successful_tasks": 4,
+    "success_rate": 1.0,
+    "average_time": 32.21603488922119
+  },
+  "tasks": [
+    {
+      "task": "Search for 'OpenAI' on Google and summarize the results.",
+      "success": true,
+      "result": "AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, extracted_content='\ud83d\udd0d  Searched for \"OpenAI\" in Google', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content=\"\ud83d\udcc4  Extracted from page\\n: OpenAI - Google Search \\n\\nPlease click here if you are not redirected within a few seconds.\\n\\nAccessibility links\\n===================\\n\\nSkip to main contentAccessibility help\\n\\nAccessibility feedback\\n\\nPress / to jump to the search box\\n\\nOpenAI\\n\\nChoose what you\u2019re giving feedback on\\n\\n- Delete\\n- ---\\n\\n  See more\\n- Delete\\n\\n---\\n\\nSee more\\n\\nReport inappropriate predictions\\n\\nQuick Settings\\n\\nSign in\\n\\nFilters and topics\\n==================\\n\\nAll\\n\\nNews\\n\\nForums\\n\\nShort videos\\n\\nWeb\\n\\nFlights\\n\\nVideos\\n\\nMore\\n\\nImages\\n\\nFinance\\n\\nShopping\\n\\nTools\\n\\nAny time\\n\\nAny time\\n\\nPast hour\\n\\nPast 24 hours\\n\\nPast week\\n\\nPast month\\n\\nPast year\\n\\nCustom range...\\n\\nCustomised date range\\n\\nFromTo\\n\\nGo\\n\\nAll result",
+      "error": null,
+      "time_metrics": {
+        "total_time": 20.394387245178223,
+        "segments": {
+          "initialization": 0.10407686233520508,
+          "execution": 20.2903048992157,
+          "result_processing": 7.152557373046875e-07
+        }
+      },
+      "max_steps": 25
+    },
+    {
+      "task": "Go to Wikipedia and find the founder of Microsoft.",
+      "success": true,
+      "result": "AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, extracted_content='\ud83d\udd17  Navigated to https://www.wikipedia.org', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='\u2328\ufe0f  Input Microsoft into index 11', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='Element index changed after action 1 / 2, because page changed.', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='\ud83d\uddb1\ufe0f  Clicked button with index 13: ', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='\ud83d\udcc4  Extracted from page\\n: Microsoft - Wikipedia\\n\\nJump to content\\n\\nMain menu\\n\\nMain menu\\n\\nmove to sidebar\\nhide\\n\\nNavigation\\n\\n* Main page\\n* Contents\\n* Current events\\n* Random article\\n* About Wikipedia\\n* Contact us\\n\\nContribute\\n\\n* Help\\n* Learn to edit\\n* Community portal\\n* Recent changes\\n* Upload file\\n* Special p",
+      "error": null,
+      "time_metrics": {
+        "total_time": 35.804550647735596,
+        "segments": {
+          "initialization": 0.02160930633544922,
+          "execution": 35.78293704986572,
+          "result_processing": 7.152557373046875e-07
+        }
+      },
+      "max_steps": 25
+    },
+    {
+      "task": "Visit IMDb and list top 3 rated movies.",
+      "success": true,
+      "result": "AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, extracted_content=None, error='Error 401: LLM API call failed', include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='\ud83d\udd17  Navigated to https://www.imdb.com/', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content='\u2328\ufe0f  Input top rated movies into index 4', error=None, include_in_memory=True), ActionResult(is_done=False, success=None, extracted_content=None, error='Failed to click element: <button id=\"suggestion-search-button\" type=\"submit\" aria-label=\"Submit Search\" class=\"nav-search__search-submit searchform__submit\"> [interactive, top, highlight:5, in-viewport]. Error: Failed to click element: Page.evaluate: Execution context was destroyed, most likely because of a navigation', include_in_memory=False), ActionResult(is_done=False, success=None, extracted_content='\ud83d\uddb1\ufe0f  Clicked button with index 49: ', error=None, include_in_memory=True), Actio",
+      "error": null,
+      "time_metrics": {
+        "total_time": 63.08048105239868,
+        "segments": {
+          "initialization": 0.01865696907043457,
+          "execution": 63.06182146072388,
+          "result_processing": 4.76837158203125e-07
+        }
+      },
+      "max_steps": 25
+    },
+    {
+      "task": "Search for the current weather in New York.",
+      "success": true,
+      "result": "AgentHistoryList(all_results=[ActionResult(is_done=False, success=None, extracted_content='\ud83d\udd0d  Searched for \"current weather in New York\" in Google', error=None, include_in_memory=True), ActionResult(is_done=True, success=True, extracted_content=\"The current weather in New York is 65\u00b0F and mostly clear according to AccuWeather. The Weather Channel says it's 54\u00b0 and cloudy.\", error=None, include_in_memory=False)], all_model_outputs=[{'search_google': {'query': 'current weather in New York'}, 'interacted_element': None}, {'done': {'text': \"The current weather in New York is 65\u00b0F and mostly clear according to AccuWeather. The Weather Channel says it's 54\u00b0 and cloudy.\", 'success': True}, 'interacted_element': None}])",
+      "error": null,
+      "time_metrics": {
+        "total_time": 9.584720611572266,
+        "segments": {
+          "initialization": 0.01920914649963379,
+          "execution": 9.56550931930542,
+          "result_processing": 2.384185791015625e-07
+        }
+      },
+      "max_steps": 25
+    }
+  ]
+}

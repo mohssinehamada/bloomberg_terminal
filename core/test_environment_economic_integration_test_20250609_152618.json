@@ -1,0 +1,19 @@
+{
+  "scenario": "economic_integration_test",
+  "timestamp": "2025-06-09T15:26:18.554090",
+  "seed": 42,
+  "browser_config": "{'__module__': 'test_versiables.test_variables', '__doc__': 'Control variables for browser automation consistency', 'HEADLESS_MODE': True, 'BROWSER_TYPE': 'chromium', 'VIEWPORT_WIDTH': 1920, 'VIEWPORT_HEIGHT': 1080, 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36', 'PAGE_LOAD_TIMEOUT': 30000, 'ELEMENT_TIMEOUT': 5000, 'SCROLL_DELAY': 1000, 'MAX_RETRIES': 3, 'RETRY_DELAY': 2.0, '__dict__': <attribute '__dict__' of 'BrowserControlVariables' objects>, '__weakref__': <attribute '__weakref__' of 'BrowserControlVariables' objects>}",
+  "economic_context": {
+    "timestamp": "2025-06-09T15:26:18.554098",
+    "economic_indicators": {
+      "unemployment_rate": 3.7,
+      "cpi_all_items": 307.5,
+      "holiday_days": 0,
+      "effr": 5.25,
+      "monthly_gdp": 25000000
+    },
+    "data_source": "mock_data_for_testing",
+    "region": "US",
+    "currency": "USD"
+  }
+}
