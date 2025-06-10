@@ -1,4 +1,3 @@
-# 🤖 Cohort 34 Web Agent with Economic Intelligence
 
 A professional-grade web scraping agent enhanced with **scientific testing controls** and **real-time economic intelligence** from the Federal Reserve.
 
