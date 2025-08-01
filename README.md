@@ -218,9 +218,6 @@ result = await agent.execute_task(websites)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-##  **License**
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ##  **Acknowledgments**
 
