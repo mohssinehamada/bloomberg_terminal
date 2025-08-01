@@ -1,15 +1,15 @@
 
 A professional-grade web scraping agent enhanced with **scientific testing controls** and **real-time economic intelligence** from the Federal Reserve.
 
-## 🎯 **Key Features**
+##  **Key Features**
 
-- **🧪 Scientific Testing Controls**: Reproducible experiments with controlled variables
-- **📊 Performance Monitoring**: Real-time metrics tracking success rates and response times  
-- **🏛️ Economic Intelligence**: Live Federal Reserve data integration
-- **🔧 Quality Assurance**: Automated validation and error detection
-- **💰 Cost Optimization**: Reduced failed runs and manual intervention
+- ** Scientific Testing Controls**: Reproducible experiments with controlled variables
+- **Performance Monitoring**: Real-time metrics tracking success rates and response times  
+- **Economic Intelligence**: Live Federal Reserve data integration
+- ** Quality Assurance**: Automated validation and error detection
+- ** Cost Optimization**: Reduced failed runs and manual intervention
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **Basic Usage**
 ```python
@@ -44,20 +44,20 @@ print(f"Items Extracted: {summary['total_items_extracted']}")
 economic_context = agent.get_economic_context()
 ```
 
-## 📊 **What You Get**
+##  **What You Get**
 
 ### **Automatic Performance Tracking**
 ```
 ============================================================
-📊 WEB AGENT PERFORMANCE SUMMARY
+WEB AGENT PERFORMANCE SUMMARY
 ============================================================
-⏱️  Test Duration: 0:02:15
-📞 Total Queries: 3
-✅ Successful Queries: 2
-📈 Success Rate: 66.67%
-📦 Total Items Extracted: 8
+⏱ Test Duration: 0:02:15
+Total Queries: 3
+Successful Queries: 2
+Success Rate: 66.67%
+Total Items Extracted: 8
 ⚡ Avg Response Time: 15.234s
-🧪 Controlled Testing: ✅ ENABLED
+Controlled Testing: ✅ ENABLED
 ============================================================
 ```
 
@@ -68,7 +68,7 @@ economic_context = agent.get_economic_context()
 - **Consumer Sentiment**: 52.2 (market confidence)
 - **GDP**: $29,976.638 billion (economic output)
 
-## 🔧 **Installation**
+## **Installation**
 
 ### **Requirements**
 ```bash
@@ -84,7 +84,7 @@ export GEMINI_API_KEY="your_gemini_api_key"
 export FRED_API_KEY="your_fred_api_key"
 ```
 
-## 📁 **Project Structure**
+##  **Project Structure**
 
 ```
 Cohort 34 - Web Agent/
@@ -106,7 +106,7 @@ Cohort 34 - Web Agent/
 └── requirements.txt               # Python dependencies
 ```
 
-## 🧪 **Testing & Validation**
+##  **Testing & Validation**
 
 ### **Run Integration Tests**
 ```bash
@@ -125,7 +125,7 @@ cd test_versiables
 python enhanced_economic_variables.py
 ```
 
-## 💼 **Business Value**
+##  **Business Value**
 
 ### **Quantifiable Improvements**
 | Metric | Before | After | Improvement |
@@ -140,14 +140,14 @@ python enhanced_economic_variables.py
 - **Reduced Failed Runs**: 80% reduction = $8,000/year  
 - **Market Intelligence**: Competitive advantage = Priceless
 
-## 🏆 **Competitive Advantages**
+##  **Competitive Advantages**
 
-1. **📊 Market Intelligence Edge**: Every data point includes economic context
-2. **🔬 Research-Grade Quality**: Scientific methodology ensures reproducible results
-3. **⚡ Operational Excellence**: Automated monitoring and optimization
-4. **💰 Cost Efficiency**: Reduced errors and manual intervention
+1. ** Market Intelligence Edge**: Every data point includes economic context
+2. ** Research-Grade Quality**: Scientific methodology ensures reproducible results
+3. **Operational Excellence**: Automated monitoring and optimization
+4. ** Cost Efficiency**: Reduced errors and manual intervention
 
-## 🔬 **Scientific Testing Features**
+##  **Scientific Testing Features**
 
 ### **Reproducibility Controls**
 - **Fixed Random Seeds**: Ensures consistent results across runs
@@ -166,7 +166,7 @@ python enhanced_economic_variables.py
 - **Quality Scoring**: Data completeness and accuracy metrics
 - **Error Analysis**: Categorized failure modes and frequencies
 
-## 🔑 **API Keys & Configuration**
+##  **API Keys & Configuration**
 
 ### **Gemini API Key (Required)**
 1. Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -176,7 +176,7 @@ python enhanced_economic_variables.py
 1. Get free API key from [Federal Reserve Economic Data](https://fred.stlouisfed.org/docs/api/api_key.html)
 2. Set environment variable: `export FRED_API_KEY="your_key"`
 
-## 🔄 **Workflow Examples**
+##  **Workflow Examples**
 
 ### **Real Estate Market Analysis**
 ```python
@@ -198,7 +198,7 @@ result = await agent.execute_task(websites)
 # Economic context helps correlate rate changes with Fed policy
 ```
 
-## 📈 **Performance Optimization**
+##  **Performance Optimization**
 
 ### **A/B Testing Framework**
 - Test different model configurations scientifically
@@ -210,7 +210,7 @@ result = await agent.execute_task(websites)
 - Required field completion tracking
 - Data quality scoring and alerts
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -218,17 +218,17 @@ result = await agent.execute_task(websites)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 **License**
+##  **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 **Acknowledgments**
+##  **Acknowledgments**
 
 - **Federal Reserve Economic Data (FRED)** for providing real-time economic indicators
 - **Google Gemini API** for advanced language model capabilities
 - **Browser-use Library** for reliable web automation
 
-## 📞 **Support**
+##  **Support**
 
 For questions, issues, or contributions:
 - Create an issue in this repository
@@ -237,4 +237,4 @@ For questions, issues, or contributions:
 
 ---
 
-**Transform your web scraping from guesswork to science with economic intelligence.** 🚀📊 
+**Transform your web scraping from guesswork to science with economic intelligence.** 
